@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Faculdade UniAlfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header (já estilizado no style.css) -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html#home" class="logo">
+                <img src="https://www.alfaumuarama.edu.br/fau/images/logop.png" alt="Logo UniAlfa">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Contato -->
+        <section class="contato-section" id="contato">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-description">Envie sua mensagem e retornaremos em breve.</p>
+
+                <div class="contato-wrapper">
+                    <!-- Formulário -->
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+
+                    <!-- Informações de Contato -->
+                    <div class="contato-info">
+                        <h3>Informações</h3>
+                        <p><i class="fa-solid fa-location-dot"></i> Av. Tiradentes, 123 - Umuarama/PR</p>
+                        <p><i class="fa-solid fa-phone"></i> (44) 1234-5678</p>
+                        <p><i class="fa-solid fa-envelope"></i> contato@unialfa.edu.br</p>
+                        
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Faculdade UniAlfa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
