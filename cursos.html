@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Faculdade UniAlfa</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="https://www.alfaumuarama.edu.br/fau/images/logop.png" alt="Logo UniAlfa">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="cursos.html" class="nav-link active">Cursos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="cursos-page">
+        <section class="hero-cursos">
+            <div class="hero-content">
+                <h1 class="hero-title">Nossos Cursos</h1>
+                <p class="hero-subtitle">Descubra a variedade de cursos que oferecemos para transformar seu futuro</p>
+            </div>
+        </section>
+        
+        <section class="filtros-cursos">
+            <div class="container">
+                <h2 class="section-title">Encontre o curso ideal para você</h2>
+                <div class="filtros-buttons">
+                    <button class="filtro-btn active">Todos</button>
+                    <button class="filtro-btn">Graduação</button>
+                    <button class="filtro-btn">Pós-Graduação</button>
+                    <button class="filtro-btn">Tecnólogo</button>
+                    <button class="filtro-btn">EAD</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="Buscar curso...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cursos-lista">
+            <div class="container">
+                <!-- Curso 1 -->
+                <div class="curso-item">
+                    <div class="curso-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Engenharia Civil">
+                        <span class="curso-tag">Graduação</span>
+                    </div>
+                    <div class="curso-content">
+                        <h3 class="curso-title">Engenharia Civil</h3>
+                        <div class="curso-meta">
+                            <span><i class="far fa-clock"></i> 5 anos</span>
+                            <span><i class="fas fa-graduation-cap"></i> Bacharelado</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Presencial</span>
+                        </div>
+                        <p class="curso-description">
+                            Curso de Engenharia Civil com foco em formar profissionais capacitados para projetar, gerenciar e executar obras e serviços. 
+                            O engenheiro civil pode atuar nos setores da construção civil, na gestão de recursos e materiais, na área de transportes, 
+                            na área de saneamento, entre outras.
+                        </p>
+                        <div class="curso-actions">
+                            <div class="curso-price">Matrícula: R$ 499,00</div>
+                            <a href="#" class="btn-detalhes">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Curso 2 -->
+                <div class="curso-item">
+                    <div class="curso-image">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Administração">
+                        <span class="curso-tag">Graduação</span>
+                    </div>
+                    <div class="curso-content">
+                        <h3 class="curso-title">Administração</h3>
+                        <div class="curso-meta">
+                            <span><i class="far fa-clock"></i> 4 anos</span>
+                            <span><i class="fas fa-graduation-cap"></i> Bacharelado</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Presencial/EAD</span>
+                        </div>
+                        <p class="curso-description">
+                            O curso de Administração prepara profissionais para gerenciar recursos financeiros, materiais e humanos de organizações. 
+                            Desenvolve habilidades em gestão, empreendedorismo, liderança e tomada de decisão. O administrador pode atuar em diversos 
+                            setores como finanças, marketing, recursos humanos e operações.
+                        </p>
+                        <div class="curso-actions">
+                            <div class="curso-price">Matrícula: R$ 399,00</div>
+                            <a href="#" class="btn-detalhes">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Curso 3 -->
+                <div class="curso-item">
+                    <div class="curso-image">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Análise e Desenvolvimento de Sistemas">
+                        <span class="curso-tag">Tecnólogo</span>
+                    </div>
+                    <div class="curso-content">
+                        <h3 class="curso-title">Análise e Desenvolvimento de Sistemas</h3>
+                        <div class="curso-meta">
+                            <span><i class="far fa-clock"></i> 2,5 anos</span>
+                            <span><i class="fas fa-graduation-cap"></i> Tecnólogo</span>
+                            <span><i class="fas fa-map-marker-alt"></i> EAD</span>
+                        </div>
+                        <p class="curso-description">
+                            Curso tecnológico que forma profissionais para analisar, projetar, documentar, especificar, testar, implantar e manter 
+                            sistemas computacionais. Desenvolve habilidades em programação, banco de dados, engenharia de software e gestão de projetos.
+                        </p>
+                        <div class="curso-actions">
+                            <div class="curso-price">Matrícula: R$ 299,00</div>
+                            <a href="#" class="btn-detalhes">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Curso 4 -->
+                <div class="curso-item">
+                    <div class="curso-image">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Direito">
+                        <span class="curso-tag">Graduação</span>
+                    </div>
+                    <div class="curso-content">
+                        <h3 class="curso-title">Direito</h3>
+                        <div class="curso-meta">
+                            <span><i class="far fa-clock"></i> 5 anos</span>
+                            <span><i class="fas fa-graduation-cap"></i> Bacharelado</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Presencial</span>
+                        </div>
+                        <p class="curso-description">
+                            O curso de Direito forma profissionais com conhecimentos jurídicos e capacidade de interpretar e aplicar a lei. 
+                            Desenvolve habilidades argumentativas, analíticas e éticas. O bacharel em direito pode atuar como advogado, juiz, 
+                            promotor, delegado, entre outras carreiras jurídicas.
+                        </p>
+                        <div class="curso-actions">
+                            <div class="curso-price">Matrícula: R$ 599,00</div>
+                            <a href="#" class="btn-detalhes">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Curso 5 -->
+                <div class="curso-item">
+                    <div class="curso-image">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="MBA em Gestão de Projetos">
+                        <span class="curso-tag">Pós-Graduação</span>
+                    </div>
+                    <div class="curso-content">
+                        <h3 class="curso-title">MBA em Gestão de Projetos</h3>
+                        <div class="curso-meta">
+                            <span><i class="far fa-clock"></i> 18 meses</span>
+                            <span><i class="fas fa-graduation-cap"></i> Pós-Graduação</span>
+                            <span><i class="fas fa-map-marker-alt"></i> EAD</span>
+                        </div>
+                        <p class="curso-description">
+                            Pós-graduação que prepara profissionais para gerenciar projetos de forma eficiente, aplicando as melhores práticas 
+                            e metodologias do mercado. Desenvolve competências em escopo, tempo, custo, qualidade, recursos humanos, comunicações, 
+                            riscos e aquisições.
+                        </p>
+                        <div class="curso-actions">
+                            <div class="curso-price">Matrícula: R$ 399,00</div>
+                            <a href="#" class="btn-detalhes">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Paginação -->
+                <div class="pagination">
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <button class="pagination-btn">3</button>
+                    <button class="pagination-btn">></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Faculdade UniAlfa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
